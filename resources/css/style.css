@@ -1,7 +1,86 @@
+
 /* General Content */
 
 html {
-  font-size: 18px;
+  font-size: 16px;
   font-family: Helvetica;
-  line-height: 1.4rem;
+  color: black;
 }
+
+/* Header */
+
+header {
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1.5rem;
+  min-height: 4rem;
+  right: 0;
+  left: 0;
+}
+
+header .company {
+  display: inline-flex;
+}
+
+.company .name {
+  align-self: center;
+  font-size: 1.5rem;
+}
+
+.logo {
+  align-self: center;
+  padding-right: .25rem;
+  min-height: 2rem;
+  padding-left: 1.5rem;
+}
+.logo img {
+  height: 3rem;
+}
+
+.name h2 {
+  display: inline-flex;
+  font-weight: bold;
+}
+.name h3 {
+  display: inline-flex;
+  color: gray;
+}
+
+.menu {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.menu ul {
+  display: inline-flex;
+  align-items: center;
+}
+
+.menu ul li {
+  margin: 1rem;
+}
+
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  transition: color 0.4s linear;
+}
+
+.menu ul li a:hover {
+  font-weight: bold;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/* Content */
+
+
+/* Content - Banner */
