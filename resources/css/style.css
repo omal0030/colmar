@@ -3,8 +3,8 @@
 
 html {
   font-size: 16px;
-  font-family: Helvetica;
-  color: black;
+  font-family: Helvetica; /* Needs Styling */
+  color: black; /* Needs Styling */
 }
 
 /* Header */
@@ -42,18 +42,17 @@ header .company {
 
 .name h2 {
   display: inline-flex;
-  font-weight: bold;
+  font-weight: bold; /* Needs Styling */
 }
 .name h3 {
   display: inline-flex;
-  color: gray;
+  color: gray; /* Needs Styling */
 }
 
 .menu {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .menu ul {
@@ -68,12 +67,12 @@ header .company {
 .menu ul li a {
   display: block;
   text-decoration: none;
-  color: black;
-  transition: color 0.4s linear;
+  color: black; /* Needs Styling */
+  transition: color 0.4s linear; /* Needs Styling */
 }
 
 .menu ul li a:hover {
-  font-weight: bold;
+  font-weight: bold; /* Needs Styling */
 }
 
 .mobile-nav {
@@ -82,5 +81,102 @@ header .company {
 
 /* Content */
 
+.content {
+  z-index: 1;
+  padding-top: 7rem;
+}
 
 /* Content - Banner */
+
+.banner {
+  display:flex;
+  justify-content: center;
+  background-color: gray; /* Needs Styling */
+  max-width: 100%;
+  padding-bottom: 1.5rem;
+  align-items: center;
+}
+
+.container-left {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.container-left img {
+  width: 100%;
+
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  justify-content: center;
+  max-width: 40%;
+
+}
+
+.banner-text {
+  margin: 0 2rem;
+  padding: 1rem;
+
+}
+
+.banner-text h1 {
+  font-family: Arial; /* Needs Styling */
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+
+.banner-text h2 {
+  font-family: Arial; /* Needs Styling */
+  font-size: 2rem;
+  line-height: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.start-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: brown; /* Needs Styling */
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: .5rem;
+  width: 60%;
+}
+
+.start-button a {
+    text-decoration: none;
+    color: white; /* Needs Styling */
+    line-height: 2rem;
+}
+
+.start-button:hover { /* Needs Styling */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
